@@ -32,7 +32,7 @@ public class GameManager : MonoBehaviour
                 if (playerCharacter != null)
                 {
                     playerCharacter.AddComponent<Cawboy>();
-                    playerCharacter.GetComponent<Cawboy>().constructor(playerName, 10, levelManager.sprites[0]);
+                    playerCharacter.GetComponent<Cawboy>().constructor(playerName, 8, levelManager.sprites[0]);
                     playerCharacter.GetComponent<PlayerMove>().setSprite(playerCharacter.GetComponent<Cawboy>().GetSprite());
                 }
                 break;

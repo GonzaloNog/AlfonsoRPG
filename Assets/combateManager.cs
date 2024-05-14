@@ -41,7 +41,8 @@ public class combateManager : MonoBehaviour
         switch (temp)
         {
             case 0:
-                player.health -= enemigo.Attack();
+                player.health -= 10;//problema en el calculo de da;o lo dejo en 10 mientras tanto
+                Debug.Log("Da;o");
                 GameManager.Instance.uiManager.UpdateEnemigoEstado("Atake: " + enemigo.Attack());
                 break;
             case 1:

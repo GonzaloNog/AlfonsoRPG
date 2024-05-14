@@ -26,7 +26,7 @@ public abstract class Character : MonoBehaviour
     public virtual float Heal()
     {
         Debug.Log("Character se cura");
-        health = Mathf.Clamp(health, 0, 100);
+        //health = Mathf.Clamp(health, 0, 100);
         return health;
     }
 }

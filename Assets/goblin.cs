@@ -21,6 +21,8 @@ public class goblin : Character
             temp = damage *3;
         else
             temp = damage;
+
+        Debug.Log("GOBLIN" + temp);
         return temp;
     }
 
